@@ -16,7 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import net.sourceforge.tess4j.Tesseract;
 
-public class ViaSelenium3
+public class OcrSiteViaSelenium3
 {
 	public static void main(String[] args) throws Exception
 	{
