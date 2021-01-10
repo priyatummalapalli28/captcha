@@ -55,7 +55,7 @@ public class OcrSiteViaSelenium3
 		String text=t.doOCR(dest);
 		System.out.println(text);
 		driver.findElement(By.name("captchaCode")).sendKeys(text);
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 		driver.close();
 	}
 }
